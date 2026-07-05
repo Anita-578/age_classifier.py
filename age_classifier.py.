@@ -1,0 +1,9 @@
+name = input("What is your name?")
+print("Hello, ", name)
+age = int(input("How old are you?"))
+if age >= 18:
+    print("Wow! You are an adult")
+elif age >= 13:
+    print("That's great! You're a teenager")
+else:
+    print("Hello, kiddo")
